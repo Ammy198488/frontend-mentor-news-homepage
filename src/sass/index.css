@@ -122,9 +122,6 @@ footer p {
 }
 
 @media only screen and (max-width: 768px) {
-  body {
-    padding-left: 10px !important;
-  }
   .nav_link {
     display: none !important;
   }
