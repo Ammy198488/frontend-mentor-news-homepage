@@ -11,7 +11,7 @@ const Nav = () => {
       <div className="nav_logo">
         <img src={logo} alt="logo" />
       </div>
-      <ul className={isOpen? 'nav_link_mobile' : 'nav_link'} onClick={() => setMobile(false)}>
+      <ul className={isOpen? 'nav_link_mobile' : 'nav_link'} onClick={() => setIsOpen(false)}>
         <li>Home</li>
         <li>New</li>
         <li>Popular</li>
